@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 1111px;
+    margin: 0 auto;
+    margin-top: 44px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    gap: 20px;
+}
+
+.data {
+    width: 370px;
+    margin-top: 7px;
+    display: flex;
+    gap: 35px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #333136;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 1111px;
+    height: 640px;
+    margin: 0 auto;
+    background-color: #E7816B;
+    border-radius: 8px;
+    margin-top: 50px;
+    display: flex;
+    background-image: url(../images/background-image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.in-main {
+    width: 540px;
+    height: 350px;
+    padding-left: 95px;
+    padding-top: 145px;
+}
+
+.award {
+    width: 540px;
+    height: 165px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.text {
+    width: 445px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 152px;
+    height: 56px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21.66px;
+    letter-spacing: 1px;
+    color: #333136;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background-color: #E7816B;
+    border: 2px solid #fff;
+    transition: 0.3s;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.phone {
+    width: 401px;
+    height: 572px;
+    margin-top: 69px;
+    margin-left: 150px;
+}
+
+.navbar {
+    width: 1112px;
+    margin: 0 auto;
+    margin-top: 160px;
+    display: flex;
+    gap: 30px;
+}
+
+.navbarOne {
+    width: 541px;
+    height: 540px;
+    background-image: url(../images/main.hero_1.png);
+    border-radius: 10px;
+    text-align: center;
+}
